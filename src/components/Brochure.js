@@ -26,7 +26,7 @@ const Brochure = () => {
     }
   };
 
-  const afterSometime = (fire, time = 300000) => {
+  const afterSometime = (fire, time = 600000) => {
     setTimeout(() => {
       fire();
     }, time);
@@ -52,7 +52,7 @@ const Brochure = () => {
               Next
             </button>
           </div>
-          <p className='ml-4'>PDF will be removed after 5 minutes.</p>
+          <p className='ml-4'>PDF will be removed after 10 minutes.</p>
 
           <Document 
             file={pdf} 
